@@ -1,10 +1,5 @@
 services:
   - type: web
     name: credwise-ai-backend
-    runtime: java
+    runtime: docker
     rootDir: backend
-    buildCommand: bash ./mvnw clean package -DskipTests
-    startCommand: java -jar target/credwise-ai-backend-0.0.1-SNAPSHOT.jar
-    envVars:
-      - key: JAVA_VERSION
-        value: 17
