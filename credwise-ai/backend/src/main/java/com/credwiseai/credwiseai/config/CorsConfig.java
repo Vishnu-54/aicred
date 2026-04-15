@@ -13,11 +13,11 @@ public class CorsConfig {
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(
-                List.of("http://localhost:5173", "http://127.0.0.1:5173", "https://aicred-4.onrender.com/",
-                        "https://aicred-5.onrender.com", "https://aicred-6.onrender.com",
-                        "https://aicred-7.onrender.com", "https://aicred-8.onrender.com",
-                        "https://aicred-9.onrender.com"));
+        config.setAllowedOrigins(List.of(
+                "http://localhost:5173",
+                "http://127.0.0.1:5173",
+                "https://credaite.netlify.app",
+                "https://credaiteservice.netlify.app"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
