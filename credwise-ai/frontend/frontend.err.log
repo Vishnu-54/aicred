@@ -1,0 +1,214 @@
+[2m7:04:22 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\claude-proj\credwise-ai\frontend\src\App.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (156:10)
+
+[0m [90m 154 |[31m [90m*/[31m
+ [90m 155 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/dashboard"[31m element[33m=[31m{[33m<[31m[33mDashboard[31m [35m/>} /[31m[33m>[31m
+[31m[1m>[22m[31m[90m 156 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/new"[31m element[33m=[31m{[33m<[31m[33mNewApplication[31m [35m/>} /[31m[33m>[31m
+ [90m     |[31m           [31m[1m^[22m[31m
+ [90m 157 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/result"[31m element[33m=[31m{[33m<[31m[33mResult[31m [35m/>} /[31m[33m>[31m
+ [90m 158 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/history"[31m element[33m=[31m{[33m<[31m[33mHistory[31m [35m/>} /[31m[33m>[31m
+ [90m 159 |[31m         [33m<[31m[33m/[31m[33mRoute[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/claude-proj/credwise-ai/frontend/src/App.tsx[39m:156:10
+[33m  154|  */
+  155|            <Route path="/dashboard" element={<Dashboard />} />
+  156|            <Route path="/new" element={<NewApplication />} />
+     |            ^
+  157|            <Route path="/result" element={<Result />} />
+  158|            <Route path="/history" element={<History />} />[39m
+      at constructor (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:4742:18)
+      at TypeScriptParserMixin.jsxParseElement (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9775:18)
+      at TypeScriptParserMixin.parseExpressionBase (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseStatementContent (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12895:23)
+      at TypeScriptParserMixin.parseStatementContent (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12612:25)
+      at TypeScriptParserMixin.parse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:14488:25)
+      at TypeScriptParserMixin.parse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10126:18)
+      at parse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:14522:38)
+      at parser (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:261:32)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:223:11)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:189:28
+      at D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:113:33
+      at step (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:287:14)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:223:11)
+[2m7:04:34 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\claude-proj\credwise-ai\frontend\src\App.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (156:10)
+
+[0m [90m 154 |[31m [90m*/[31m
+ [90m 155 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/dashboard"[31m element[33m=[31m{[33m<[31m[33mDashboard[31m [35m/>} /[31m[33m>[31m
+[31m[1m>[22m[31m[90m 156 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/new"[31m element[33m=[31m{[33m<[31m[33mNewApplication[31m [35m/>} /[31m[33m>[31m
+ [90m     |[31m           [31m[1m^[22m[31m
+ [90m 157 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/result"[31m element[33m=[31m{[33m<[31m[33mResult[31m [35m/>} /[31m[33m>[31m
+ [90m 158 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/history"[31m element[33m=[31m{[33m<[31m[33mHistory[31m [35m/>} /[31m[33m>[31m
+ [90m 159 |[31m         [33m<[31m[33m/[31m[33mRoute[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/claude-proj/credwise-ai/frontend/src/App.tsx[39m:156:10
+[33m  154|  */
+  155|            <Route path="/dashboard" element={<Dashboard />} />
+  156|            <Route path="/new" element={<NewApplication />} />
+     |            ^
+  157|            <Route path="/result" element={<Result />} />
+  158|            <Route path="/history" element={<History />} />[39m
+      at constructor (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:4742:18)
+      at TypeScriptParserMixin.jsxParseElement (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9775:18)
+      at TypeScriptParserMixin.parseExpressionBase (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseStatementContent (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12895:23)
+      at TypeScriptParserMixin.parseStatementContent (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12612:25)
+      at TypeScriptParserMixin.parse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:14488:25)
+      at TypeScriptParserMixin.parse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10126:18)
+      at parse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:14522:38)
+      at parser (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:261:32)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:223:11)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:189:28
+      at D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:113:33
+      at step (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:287:14)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:223:11)
+D:\claude-proj\credwise-ai\frontend\src\App.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (156:10)
+
+[0m [90m 154 |[39m [90m*/[39m
+ [90m 155 |[39m           [33m<[39m[33mRoute[39m path[33m=[39m[32m"/dashboard"[39m element[33m=[39m{[33m<[39m[33mDashboard[39m [35m/>} /[39m[33m>[39m
+[31m[1m>[22m[39m[90m 156 |[39m           [33m<[39m[33mRoute[39m path[33m=[39m[32m"/new"[39m element[33m=[39m{[33m<[39m[33mNewApplication[39m [35m/>} /[39m[33m>[39m
+ [90m     |[39m           [31m[1m^[22m[39m
+ [90m 157 |[39m           [33m<[39m[33mRoute[39m path[33m=[39m[32m"/result"[39m element[33m=[39m{[33m<[39m[33mResult[39m [35m/>} /[39m[33m>[39m
+ [90m 158 |[39m           [33m<[39m[33mRoute[39m path[33m=[39m[32m"/history"[39m element[33m=[39m{[33m<[39m[33mHistory[39m [35m/>} /[39m[33m>[39m
+ [90m 159 |[39m         [33m<[39m[33m/[39m[33mRoute[39m[33m>[39m[0m
+D:\claude-proj\credwise-ai\frontend\src\App.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (156:10)
+
+[0m [90m 154 |[39m [90m*/[39m
+ [90m 155 |[39m           [33m<[39m[33mRoute[39m path[33m=[39m[32m"/dashboard"[39m element[33m=[39m{[33m<[39m[33mDashboard[39m [35m/>} /[39m[33m>[39m
+[31m[1m>[22m[39m[90m 156 |[39m           [33m<[39m[33mRoute[39m path[33m=[39m[32m"/new"[39m element[33m=[39m{[33m<[39m[33mNewApplication[39m [35m/>} /[39m[33m>[39m
+ [90m     |[39m           [31m[1m^[22m[39m
+ [90m 157 |[39m           [33m<[39m[33mRoute[39m path[33m=[39m[32m"/result"[39m element[33m=[39m{[33m<[39m[33mResult[39m [35m/>} /[39m[33m>[39m
+ [90m 158 |[39m           [33m<[39m[33mRoute[39m path[33m=[39m[32m"/history"[39m element[33m=[39m{[33m<[39m[33mHistory[39m [35m/>} /[39m[33m>[39m
+ [90m 159 |[39m         [33m<[39m[33m/[39m[33mRoute[39m[33m>[39m[0m
+[2m7:04:35 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: D:\claude-proj\credwise-ai\frontend\src\App.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (156:10)
+
+[0m [90m 154 |[31m [90m*/[31m
+ [90m 155 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/dashboard"[31m element[33m=[31m{[33m<[31m[33mDashboard[31m [35m/>} /[31m[33m>[31m
+[31m[1m>[22m[31m[90m 156 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/new"[31m element[33m=[31m{[33m<[31m[33mNewApplication[31m [35m/>} /[31m[33m>[31m
+ [90m     |[31m           [31m[1m^[22m[31m
+ [90m 157 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/result"[31m element[33m=[31m{[33m<[31m[33mResult[31m [35m/>} /[31m[33m>[31m
+ [90m 158 |[31m           [33m<[31m[33mRoute[31m path[33m=[31m[32m"/history"[31m element[33m=[31m{[33m<[31m[33mHistory[31m [35m/>} /[31m[33m>[31m
+ [90m 159 |[31m         [33m<[31m[33m/[31m[33mRoute[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mD:/claude-proj/credwise-ai/frontend/src/App.tsx[39m:156:10
+[33m  154|  */
+  155|            <Route path="/dashboard" element={<Dashboard />} />
+  156|            <Route path="/new" element={<NewApplication />} />
+     |            ^
+  157|            <Route path="/result" element={<Result />} />
+  158|            <Route path="/history" element={<History />} />[39m
+      at constructor (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:6599:19)
+      at TypeScriptParserMixin.jsxParseElementAt (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:4742:18)
+      at TypeScriptParserMixin.jsxParseElement (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:4749:17)
+      at TypeScriptParserMixin.parseExprAtom (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+      at TypeScriptParserMixin.parseUpdate (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+      at TypeScriptParserMixin.parseMaybeUnary (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9837:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+      at TypeScriptParserMixin.parseExprOps (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+      at TypeScriptParserMixin.parseMaybeConditional (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9775:39
+      at TypeScriptParserMixin.tryParse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:6907:20)
+      at TypeScriptParserMixin.parseMaybeAssign (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9775:18)
+      at TypeScriptParserMixin.parseExpressionBase (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10784:23)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10780:39
+      at TypeScriptParserMixin.allowInAnd (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12421:16)
+      at TypeScriptParserMixin.parseExpression (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10780:17)
+      at TypeScriptParserMixin.parseStatementContent (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12895:23)
+      at TypeScriptParserMixin.parseStatementContent (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:9508:18)
+      at TypeScriptParserMixin.parseStatementLike (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+      at TypeScriptParserMixin.parseModuleItem (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12744:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:13316:36)
+      at TypeScriptParserMixin.parseBlockBody (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:13309:10)
+      at TypeScriptParserMixin.parseProgram (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12622:10)
+      at TypeScriptParserMixin.parseTopLevel (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:12612:25)
+      at TypeScriptParserMixin.parse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:14488:25)
+      at TypeScriptParserMixin.parse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:10126:18)
+      at parse (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\parser\lib\index.js:14522:38)
+      at parser (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:261:32)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:223:11)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:189:28
+      at D:\claude-proj\credwise-ai\frontend\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:113:33
+      at step (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:287:14)
+      at D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (D:\claude-proj\credwise-ai\frontend\node_modules\gensync\index.js:223:11)
+^C

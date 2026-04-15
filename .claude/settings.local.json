@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl https://start.spring.io/starter.zip -d dependencies=web,jpa,postgresql,lombok -d bootVersion=3.2.0 -d baseDir=credwise-ai/backend -d packageName=com.credwiseai -d name=credwise-ai-backend -o backend.zip22)",
+      "Bash(unzip -o backend.zip)",
+      "Bash(rm backend.zip)",
+      "Bash(curl https://start.spring.io/starter.zip -d dependencies=web,jpa,postgresql,lombok -d bootVersion=3.2.0 -d packageName=com.credwiseai -d name=credwise-ai-backend -o credwise-ai/backend/backend.zip)",
+      "Bash(unzip *)",
+      "Bash(curl \"https://start.spring.io/starter.zip?dependencies=web,jpa,postgresql,lombok&bootVersion=3.2.0&packageName=com.credwiseai&name=credwise-ai-backend\" -o backend.zip)",
+      "Bash(mkdir -p src/main/java/com/credwiseai/credwiseai)",
+      "Bash(mkdir -p src/main/resources)"
+    ]
+  }
+}
