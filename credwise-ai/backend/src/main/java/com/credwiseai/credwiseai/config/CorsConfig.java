@@ -16,7 +16,8 @@ public class CorsConfig {
         config.setAllowedOrigins(
                 List.of("http://localhost:5173", "http://127.0.0.1:5173", "https://aicred-4.onrender.com/",
                         "https://aicred-5.onrender.com", "https://aicred-6.onrender.com",
-                        "https://aicred-7.onrender.com"));
+                        "https://aicred-7.onrender.com", "https://aicred-8.onrender.com",
+                        "https://aicred-9.onrender.com"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowCredentials(true);
